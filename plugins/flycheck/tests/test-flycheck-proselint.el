@@ -45,7 +45,7 @@ demo.md:163:2: typography.symbols.copyright (c) is a goofy alphabetic approximat
 
         (it "activates in appropriate major modes"
             (expect (flycheck-ert-should-syntax-check
-                     "/home/mavit/src/proselint/plugins/flycheck/tests/sample"
+                     "tests/sample"
                      '(text-mode markdown-mode gfm-mode message-mode)
                      '(1 10 warning
                          "Inconsistent spelling of 'color' (vs. 'colour')."
